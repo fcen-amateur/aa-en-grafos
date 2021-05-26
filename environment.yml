@@ -10,7 +10,6 @@ dependencies:
   # Herramientas de ploteo
   - matplotlib
   - seaborn
-  # - pycairo  # Backend de igraph.plot
   # Jupyter Lab + registro de ambientes ("kernels") en Jupyter
   - jupyterlab
   - ipykernel

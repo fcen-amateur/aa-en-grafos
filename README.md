@@ -13,6 +13,8 @@ El lenguaje de programación "oficial" del curso será Python, aunque los alumno
 conda env create --file environment.yml
 ```
 
+:warning: Como con toda pieza de código desconocida, comience por leer su [documentación](https://conda.io/projects/conda/en/latest/index.html). Si es muy vaga/o, puede descarga de [aquí](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) un resumen de comandos importantes en PDF.
+
 Instalado el ambiente, activarlo es tan sencillo como `conda activate aag`, y desactivarlo, `conda deactivate`. El ambiente de trabajo incluye su propia instalación de Jupyter Lab, con lo cual levantar JupyterLab como servicio web es sencillamente:
 
 ```bash
