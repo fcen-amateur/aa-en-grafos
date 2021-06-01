@@ -1,6 +1,5 @@
-name: aag
+name: aag2
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python=3.8
@@ -10,6 +9,7 @@ dependencies:
   # Herramientas de ploteo
   - matplotlib
   - seaborn
+  - pycairo  # El "renderizador" de igraph
   # Jupyter Lab + registro de ambientes ("kernels") en Jupyter
   - jupyterlab
   - ipykernel
@@ -18,4 +18,5 @@ dependencies:
   - python-igraph
   # Miscelánea
   - requests  # Para hacer consultas a APIs externas
+  - cartopy  # Manipulación de elementos geográficos
   - geopandas  # Utilidades de análisis y ploteo de data geográfica
