@@ -1,5 +1,0 @@
-networkx
-jupyterlab
-# flask
-numpy
-matplotlib
