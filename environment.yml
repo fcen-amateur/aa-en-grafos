@@ -1,4 +1,4 @@
-name: aag2
+name: aag
 channels:
   - conda-forge
 dependencies:
